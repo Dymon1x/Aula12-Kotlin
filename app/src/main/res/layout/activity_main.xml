@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:padding="16dp"-->
+<!--        android:text="TextView 1" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:padding="16dp"-->
+<!--        android:text="Button" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:padding="16dp"-->
+<!--        app:srcCompat="@drawable/ic_launcher_background" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText3"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:padding="16dp"-->
+<!--        android:inputType="textEmailAddress" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText4"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:padding="16dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPassword" />-->
+    <TextView
+        android:id="@+id/text_info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="5dp"
+        android:text="@string/tv_texto"
+        android:textColor="@color/colorDark"
+        android:fontFamily="serif"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        app:srcCompat="@drawable/gasolina" />
+
+    <EditText
+        android:id="@+id/editar_gasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:ems="10"
+        android:inputType="" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        app:srcCompat="@drawable/etanol" />
+
+    <EditText
+        android:id="@+id/editar_etanol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/btn_comparando"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/btn_comparar"
+        android:background="@color/colorText"
+        android:textColor="@color/colorDark"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:fontFamily="serif"
+        />
+
+    <TextView
+        android:id="@+id/text_resultado"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Resultado: "
+        android:textColor="@color/colorDark"
+        android:fontFamily="serif"/>
+
+    <ImageView
+        android:id="@+id/iv_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp" />
+
+</LinearLayout>

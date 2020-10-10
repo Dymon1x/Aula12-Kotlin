@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Aula0910</string>
+    <string name="tv_olamundo"></string>
+    <string name="tv_texto">Informe o preço do etanol e gasolina para comparar seus preços:</string>
+    <string name="btn_comparar">Comparar Valores</string>
+</resources>
